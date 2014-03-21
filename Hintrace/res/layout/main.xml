@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="match_parent"
+	android:background="@drawable/hintrace_bg">
+
+    <ImageView
+        android:id="@+id/middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/transparent" />
+<Button
+        android:id="@+id/playBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/kaisekhelenBtn"
+        android:layout_alignLeft="@+id/kaisekhelenBtn"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/khelein" />
+    
+    <Button
+        android:id="@+id/kaisekhelenBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/exit"
+        android:layout_alignLeft="@+id/exit"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/kaise_khelen" />
+
+    
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:layout_toRightOf="@+id/middle"
+        android:background="@drawable/bahar_nikle" />
+
+	</RelativeLayout>

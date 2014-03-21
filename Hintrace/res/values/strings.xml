@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HinTrace</string>
+    <string name="clear">Clear Screen</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="exit">Exit</string>
+    <string name ="play">Play</string>
+    <string name ="text">बिंदु से बिंदु मिलाएं </string>
+    
+
+</resources>

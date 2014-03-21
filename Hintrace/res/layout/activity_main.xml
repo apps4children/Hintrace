@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:orientation="horizontal" 
+    android:background="@drawable/hintraceinner">
+    
+ <ImageView
+     android:id="@+id/textview"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="5dip"
+     android:layout_centerInParent="true"
+     android:layout_alignParentTop="true"
+     android:background="@drawable/hindi_txt"/>
+
+  <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true" >
+  
+  <ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="190dp"
+    android:layout_height="190dp"
+    android:layout_centerInParent="true"
+    android:layout_toLeftOf="@+id/middle"
+    android:src="@drawable/a"/>
+  <ImageView 
+    android:id="@+id/middle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/transparent"
+    android:layout_centerInParent="true"/>
+  <LinearLayout 
+    android:id="@+id/lc"
+    android:layout_width="250dp" 
+    android:layout_height="250dp" 
+    android:gravity="center"
+    android:layout_toRightOf="@+id/middle"
+    android:orientation="vertical"> 
+ </LinearLayout>
+  </RelativeLayout>
+
+<ImageView
+    	android:id="@+id/next"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="5dip"
+    	android:layout_marginRight="3dip"
+    	android:layout_alignParentTop="true"
+    	android:layout_alignParentRight="true"
+    	android:background="@drawable/aage" />
+
+ <ImageView
+     android:id="@+id/prev"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="5dip"
+     android:layout_marginLeft="3dip"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+     android:background="@drawable/peeche"
+     />
+
+<LinearLayout
+    android:id="@+id/eraserView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    >
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mitayen_pinkcolor"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="4dp"
+         />
+
+</LinearLayout>
+    </RelativeLayout>
